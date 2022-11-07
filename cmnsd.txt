@@ -1,0 +1,107 @@
+
+
+   52  tree
+   53  sudp apt install tree
+   54  sudo apt install tree
+   55  clear
+   56  tree
+   57  clear
+   58  tree
+   59  tree >> result_dir
+   60  nano result_dir 
+   61  clear
+   62  git
+   63  sudo apt-get install git 
+   64  clear
+   65  git
+   66  clear
+   67  git config user.email
+   68  git config user.email stepan.vovk@plvision.eu
+   69  git config user.email=stepan.vovk@plvision.eu
+   70  git config user.email
+   71  git config user.email "stepan.vovk@plvision.eu"
+   72  git init
+   73  git config user.email "stepan.vovk@plvision.eu"
+   74  git config user.name "Stepan Vovk"
+   75  git config user.name
+   76  git branch
+   77  git status
+   78  clear
+   79  git add .
+   80  git commit -sm "created project structure"
+   81  nano main.c 
+   82  cat main.c 
+   83  clear
+   84  git commit -sm "added empty main function" 
+   85  git add .
+   86  git commit -sm "added empty main function" 
+   87  git checkout -b "first_dev_branch"
+   88  git switch master 
+   89  nano main.c 
+   90  git add main.c 
+   91  git commit -sm "modified main_c function"
+   92  git branch "second_dev_branch"
+   93  git branch
+   94  nano main.c 
+   95  git commit --amend -sm "changed print msg in main"
+   96  git checkout first_dev_branch 
+   97  nano main.c 
+   98  git status
+   99  git add main.c 
+  100  git branch
+  101  git commit --amend -sm "changed print msg in main"
+  102  git status
+  103  git log --oneline
+  104  git checkout first_dev_branch 
+  105  ll
+  106  ls
+  107  cd math_lib/
+  108  ls
+  109  cd src/
+  110  cd ..
+  111  git branch 
+  112  nano main.c 
+  113  git add main.c 
+  114  git commit -sm "first function"
+  115  nano main.c 
+  116  git add main.c 
+  117  git commit -sm "second function"
+  118  git log 
+  119  git log --oneline
+  120  git checkout second_dev_branch 
+  121  nano main.c 
+  122  git add main.c 
+  123  git commit -sm "1st function  2nd branch"
+  124  nano main.c 
+  125  git add main.c 
+  126  git commit -sm "2nd function  2nd branch"
+  127  git checkout master 
+  128  git merge first_dev_branch 
+  129  git log --oneline
+  130  git log --decorate
+  131  git log --oneline --graph  
+  132  git rebase first_dev_branch 
+  133  git log --oneline --graph  
+  134  git branch 
+  135  nano main.c 
+  136  git log --graph 
+  137  git merge first_dev_branch 
+  138  git merge --no-ff second_dev_branch 
+  139  nano main.c 
+  140  git status
+  141  git add main.c 
+  142  git merge --continue 
+  143  git log --graph 
+  144  git switch master 
+  145  git reset -hard HEAD~2
+  146  git reset --hard HEAD~2
+  147  git log --oneline --graph
+  148  git remote add origin https://github.com/StepanVovkPLV/plv_camp.git
+  149  git push -u origin master
+  150  git remote set-url https://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@github.com/StepanVovkPLV/plv_camp
+  151  git remote set-url origin https://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@github.com/StepanVovkPLV/plv_camp
+  152  git remotes
+  153  git remote
+  154  git push -u origin master
+  155  clear
+  156  history
